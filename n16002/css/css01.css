@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+body {
+   margin:0;
+   font-size:15px;
+   font-family:Verdana,Osaka,'MS UI Gothic';
+   color:#333;
+   line-height:150%;
+   letter-spacing:0.05em;
+
+   scrollbar-face-color:#ffffff;
+   scrollbar-track-color:#ffffff;
+   scrollbar-arrow-color:#339999;
+   scrollbar-3dlight-color:#ffffff;
+   scrollbar-highlight-color:#ffffff;
+   scrollbar-shadow-color:#ffffff;
+   scrollbar-darkshadow-color:#ffffff;
+   overflow-y:auto;
+}
+
+a {
+   color:#FF6060;
+   text-decoration:none;
+}
+
+a:hover {
+   color:#FFB2B2;
+   cursor:e-resize;
+}
+
+image {
+   border:0;
+}
+
+br {
+   letter-spacing:normal;
+}
+
+.line {
+   border:1px #339999 solid;
+}
+
+h1 {
+   font-size:16px;
+   color:#000000;
+   font-weight:bold;
+   text-align:center;
+}
+
+#wrapper {
+   width:auto;
+   overflow:hidden;
+   margin:-200px 0 0 -350px;
+   position:absolute;
+   top:50%;
+   left:50%;
+   text-align:left;
+}
+
+#menu {
+   width:150px;
+   height:370px;
+   float:left;
+}
+
+#contentsWrap {
+   overflow:hidden;
+}
+
+#contents {
+   width:400px;
+   float:right;
+   height:350px;
+   overflow:auto;
+   padding:10px 130px 10px 10px;
+}
+
+#footer {
+   clear:both;
+}
+
+#menu {
+   background-image:url("../images/yoko.jpg");
+   vertical-align:top;
+   line-height:250%;
+}
+
+#menu ul {
+   list-style:none;
+   margin:0;
+   padding-left:20px;
+}
+
+#contentsWrap {
+   background: url("../images/gorira.jpg") 96% 100% no-repeat;
+}
+
+*html #contents {
+
+#contents h2 {
+   background:url("../images/a.png") no-repeat;
+   padding:3px 3px 3px 55px;
+   border-bottom:1px #339999 dotted;
+   font-size:1em;
+   font-weight:normal;
+   line-height:33px;
+   margin:0;
+}
+
+#contents p {
+   margin:0;
+   padding:0.5em 0 2em 0;
+}
+
+#contents strong {
+   color:red;
+   font-weight:normal;
+   border-bottom:1px dashed #999;
+}
+
+
+#footer {
+   font-size:0.9em;
+   text-align:right;
+}
+
+#enter {
+   width:400px;
+   overflow:hidden;
+   margin:-150px 0 0 -200px;
+   position:absolute;
+   top:50%;
+   left:50%;
+   text-align:left;
+}
+
+#enterText {
+   width:260px;
+   float:left;
+   vertical-align:bottom;
+   text-align:right;
+   margin-top:40px;
+}
+
+#enterPhoto {
+   width:130px;
+   float:right;
+   vertical-align:bottom;
+}
