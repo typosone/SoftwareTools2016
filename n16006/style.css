@@ -1,0 +1,160 @@
+body {
+  background-color: #f4f3f0;
+}
+
+.page-header {
+
+}
+/*
+[class*="col-"] {
+  background-color: #EEEEEE;
+}
+*/
+.bgred {
+  background-color: #660000;
+  border: 1px solid #FF0000;
+
+}
+
+.padding-none {
+  padding: 0;
+}
+
+
+/* Navi */
+.navbar-header {
+    margin-bottom: 10px;
+	background-color: #da000f;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:1px;
+	padding-right:1px;
+}
+
+
+.nav > li > a {
+    color: #da000f;
+    background-color: #ffffff;
+	border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	margin-left:1px;
+	margin-right:1px;
+}
+.nav > li:last-child > a {
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  color: #fff;
+  background-color: #da000f;
+	border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+  }
+.nav > li.active > a,
+.nav > li.active > a:hover,
+.nav > li.active > a:focus {
+  color: #fff;
+  background-color: #da000f;
+	border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+
+/* TOP */
+#gaigo_web section {
+	margin-bottom: 20px;
+}
+
+.header_text p {
+	font-size: 80%;
+}
+
+.footer_text p {
+	font-size: 80%;
+}
+.footer_text p {
+	font-size: 80%;
+}
+
+/* TOP Slider */
+.top_slider {
+	background-color: #ffffff;
+	padding: 10px;
+}
+.top_slider p {
+	padding-top: 10px;
+}
+
+/* TOP Thumbnail Contents */
+.top_thumbnail {
+	padding:0;
+	margin:0;
+}
+.top_thumbnail > div {
+	background-color: #ffffff;
+	padding: 10px;
+	margin: 0 5px 10px 5px;
+}
+
+
+.top_thumbnail p {
+	padding-top: 10px;
+	margin-bottom:0px;
+}
+
+/* TOP NEXT OPEN CAMPUS */
+.next_opencampus_list {
+	padding:0;
+	margin:0;
+	
+}
+.next_opencampus_list > div {
+	background-color: #da000f;
+	padding: 10px 10px 6px 10px;
+	margin: 0 5px 10px 5px;
+	
+}
+.next_opencampus_list ul {
+  padding-left: 0;
+  list-style: none;
+}
+.next_opencampus_list ul li {
+	margin-bottom: 1px;
+}
+
+/* TOP NEWS */
+.top_news {
+	padding:0;
+	margin:0;
+}
+.top_news > div {
+	background-color: #ffffff;
+	padding: 10px;
+	margin: 0 5px 10px 5px;
+}
+
+.top_news_title{
+	padding: 5px 0 5px 5px;
+	background-color: #da000f;
+	color: #ffffff;
+}
+.top_news ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.top_news ul li {
+	clear:both;
+	display: block;
+	margin: 0 0 10px 0;
+}
+.top_news ul li img {
+	display:inline-block;
+	margin: 0 10px 0 0;
+}
+.top_news ul li p {
+	display:inline-block;
+}
